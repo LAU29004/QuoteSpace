@@ -17,6 +17,21 @@ QuoteSpace is a modern React Native app that delivers daily motivational and ins
 
 ---
 
+## 🎁 Bonus Features
+
+These are additional enhancements that elevate the user experience:
+
+- ❤️ **Add Quotes to Favorites** and view them anytime
+- 🔗 **Share quotes** directly with friends & social platforms
+- 🌀 **Smooth Transitions & Animations** across screens
+- 🌟 **Dynamic UI Color Themes** based on quote categories
+- 🚀 **Auto Fetch New Quotes** on swipe or refresh
+- 🧠 **Smart Category Memory** – app remembers last selected category
+- 💾 **Persists User Data** even after closing the app
+- 🎨 **Cinematic Fireflies & Glow Effects** for a premium look and feel
+
+---
+
 ## 📦 Tech Stack
 
 | Technology | Purpose |
@@ -31,6 +46,7 @@ QuoteSpace is a modern React Native app that delivers daily motivational and ins
 ---
 
 ## 📂 Project Structure
+
 QuoteSpace/
 │
 ├── .env # API keys (ignored in Git)
@@ -60,7 +76,6 @@ QuoteSpace/
 ├── favoritesSlice.js # Redux slice
 └── index.js # Store + Persist config
 
-
 ---
 
 ## 🛠️ Installation & Setup
@@ -72,7 +87,6 @@ cd QuoteSpace
 
 2️⃣ Install Dependencies
 npm install
-or
 yarn install
 
 3️⃣ Add Environment Variables
@@ -82,28 +96,36 @@ API_KEY_FAVQ=your_favQs_api_key_here
 
 4️⃣ Start the App
 npx expo start
-
-
 Open on:
+
 📱 Android Emulator
+
 📱 iOS Simulator
-📲 Physical device via Expo Go
+
+📲 Physical device using Expo Go
 
 🔑 Environment Variables
 Variable	Required	Description
 API_KEY_FAVQ	✅ Yes	API key for FavQs quotes API
 
 🚧 Future Enhancements (Planned)
-Light & Dark Mode Themes
-Offline Quotes Mode
-User-Added Custom Quotes
-Multi-Language Quote Packs
+🌗 Light & Dark Mode Themes
+
+📶 Offline Quotes Mode
+
+✍️ User-Added Custom Quotes
+
+🌍 Multi-Language Quote Packs (Hindi, Marathi, etc.)
+
+🧵 Custom Quote Wallpapers for Sharing
 
 🤝 Contributing
 Contributions are welcome!
-If you want to improve something, feel free to:
+
+If you want to improve something:
+
 fork → modify → pull request
-For major changes, open an issue first to discuss your proposal.
+For major changes, please open an issue first to discuss your ideas.
 
 📜 License
 This project is currently for learning and personal use.
