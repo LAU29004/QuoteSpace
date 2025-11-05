@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "KrushiX",
-    "slug": "KrushiX",
+    "name": "QuoteSpace",
+    "slug": "QuoteSpace",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/QuoteSpace.json",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
@@ -13,17 +13,33 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSSpeechRecognitionUsageDescription": "Allow $(PRODUCT_NAME) to use speech recognition.",
+        "NSMicrophoneUsageDescription": "Allow $(PRODUCT_NAME) to use the microphone."
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.anonymous.KrushiX"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra":{
+      "API_NINJAS_KEY":"9ZCEsAZYptMujvYj2Pvb0g==z14iVO7nG26YEOpD"
+    },
+    "plugins": [
+      "expo-speech-recognition",
+      "expo-localization"
+    ]
   }
 }
